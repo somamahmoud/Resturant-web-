@@ -1,0 +1,190 @@
+/* Start Global */
+*{
+    -wekite-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+body{ 
+ 
+   height: 3000px;
+    
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Start Global */
+/* Start navbar */
+header
+{
+    height: 500px;
+    width: 100%;
+    background: #005706;
+    background-size: cover;
+    position: relative;
+    top:-50px;
+    margin-top: -21px;
+    padding-top: 10px;
+}
+    
+h1 , h4 {
+text-align: center;
+}
+h1{
+   font-size: 100px;
+    color: #e8d702;
+        
+}
+h1 a{
+   text-decoration: none;
+    color: #e8d702;
+        
+}
+h4{
+    margin-top: -25px;
+        font-size: xx-large;
+    color:#e8d702;
+
+}
+ul{
+    list-style: none;
+    margin-left: 13%;    
+    font-weight: bold;
+    padding: 20px 10;
+    max-width: max-content;
+}
+ul li{
+    /*text-align: center;*/
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    padding: 15px ;
+    border: hidden;
+    margin-right: 10px;
+    
+    background-color: rgba(0,0,0,0.5);
+}
+ li a.active{
+
+    color:#797916;
+}
+
+ul li:hover{
+    text-decoration: underline;
+    background: #797916;
+    /*border: 1px solid yellow;*/
+}
+ul li a{
+    text-decoration:none ;
+        color: honeydew;
+
+/* End navbar */
+
+}
+/* Start header */
+/*.header {
+    background:  url('chef.jpg');
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    top:-50px;
+    bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom:0;
+    
+}
+.header .overLay{
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 1;
+}
+
+.header .content{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 180px;
+    z-index: 3;
+}
+/* End heaer */*/
+
+
+.our-team{
+    padding: 40px 20px;
+}/*
+.our-team .box{
+    float: left;
+    overflow: hidden;
+    position: relative;*/
+    
+    
+}
+
+.our-team .box h2{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 10px;  
+}
+.our-team .box p{
+    font-size: 23px;
+    line-height: 30px;
+}
+.our-team .box p span{
+    color: blue;
+}
+.our-team .box img{
+    width: 900px;
+    position: relative;
+    left: 10%;
+}
+.our-team .box h3{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 10px;
+    color: #797916;
+}
+/* Start footer */
+.footer{
+    color:white;;
+    position: relative;
+    bottom:-200px;
+    padding: 20px 10px;;
+    background:  url("footerr.jpg");
+    overflow: hidden;
+    
+}
+footer{
+   padding: 20px 20px 20px 20px; font-size: smaller;
+   background: url("images/footerr.jpg");
+   color:#e8d702;
+        }
+        
+.call , .email{
+    letter-spacing:1px;display: inline;
+    
+}
+.email{
+    float:right;
+    margin-top: 0px;
+    
+}
+
+
+/* End footer */
+
+
+
+

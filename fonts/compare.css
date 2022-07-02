@@ -1,0 +1,230 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+header
+{
+    height: 610px;
+    width: 100%;
+    background: url('images/compare.jpg');
+    margin-top: -21px;
+    padding-top: 10px;
+}
+    
+h1 , h4 {
+text-align: center;
+}
+h1{
+   font-size: 100px;
+    color: #e8d702;
+    position: relative;
+    z-index: 3;
+        
+}
+h1 a{
+    color:#e8d702;
+    text-decoration: none;
+}
+h4{
+    margin-top: -25px;
+    font-size: xx-large;
+    color:#e8d702;
+    position: relative;
+    z-index: 3;
+
+}
+ul{
+    list-style: none;
+    margin-left: 9%;    
+    font-weight: bold;
+    padding: 20px 0;
+    max-width: max-content;
+    position: relative;
+    z-index: 3;
+}
+ul li{
+    /*text-align: center;*/
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    padding: 15px ;
+    border: hidden;
+    margin-right: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+ul li:hover{
+    text-decoration: underline;
+    background: #797916;
+    /*border: 1px solid yellow;*/
+}
+ul li a{
+    text-decoration:none ;
+        color: honeydew;
+}
+header .content{
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 4;
+}
+header .content h2{
+    font-size: 40px;
+}
+
+.header .overLay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    z-index: 1;
+}
+.header .class1 h2{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color: #264d0f;
+    position: relative;
+    top: 50px;
+ 
+}
+.header .class1 h3{
+    font-size: 35px;
+   
+    color: #264d0f;
+    position: relative;
+    top: 100px;
+}
+.header .class1 img{
+    width: 95%;
+    height: 600px;
+    position: relative;
+    left: 50px;
+    top: 70px;
+}
+.header .class1 p{
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    line-height: 35px;
+}
+.header .class1 p span{
+    color:darkblue;
+}
+.header .class1 h4{
+    text-align: center;
+    color:#264d0f;
+    font-size: 30px;
+    position: relative;
+    top: 200px;
+}
+.header table {
+    border: 1px solid #264d0f;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+    
+}
+.header table td{
+    width: 800px;
+    height: 100px;
+    border: 1px solid #264d0f;
+    background: #e0dd61;
+}
+.header .class1 h2.head{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color: #264d0f;
+    position: relative;
+    top: 250px;
+}
+.header .class1 img.head{
+    width: 95%;
+    height: 650px;
+    position: relative;
+    left: 50px;
+    top: 320px;
+}
+.header .class1 h3.head{
+    font-size: 35px;
+    color: #264d0f;
+    position: relative;
+    top: 350px;
+}
+.header .class1 p.head{
+    font-size: 25px;
+    position: relative;
+    top: 350px;
+    line-height: 35px;
+}
+.header .class1 h3.head1{
+    font-size: 35px;
+    color: #264d0f;
+    position: relative;
+    top: 400px;
+}
+.header .class1 p.head1{
+    font-size: 25px;
+    position: relative;
+    top: 400px;
+    line-height: 35px;
+}
+.header .class1 h4.head{
+    text-align: center;
+    color:#264d0f;
+    font-size: 30px;
+    position: relative;
+    top: 450px;
+}
+.header table.head {
+    border: 1px solid #264d0f;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 450px;
+    
+}
+.header table td{
+    width: 800px;
+    height: 100px;
+    border: 1px solid #264d0f;
+    background: #e0dd61;
+}
+footer{
+   padding: 20px 20px 0px 20px; font-size: smaller;
+        }
+        footer .last{
+            display: inline;
+        }
+        footer .r {
+            float: right;}
+            
+            
+            
+footer{
+   padding: 20px 20px 20px 20px; font-size: smaller;
+   background: url("images/footerr.jpg");
+   color:#e8d702;
+    position: relative;
+    bottom: -70%;
+}
+        
+.call , .email{
+    letter-spacing:1px;display: inline;
+    
+}
+.email{
+    float:right;
+    margin-top: 0px;
+    
+}
+
+
+

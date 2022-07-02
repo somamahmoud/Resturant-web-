@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5//EN"
+    "http://www.w3.org/TR/html5/html5.dtd"
+    >
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("h2").addClass("header");
+            $("form").addClass("form1");
+            $("div").addClass("div1");
+            $("label").addClass("label1");
+        });
+     
+    </script>
+</head>
+<body>
+     <header>
+        <h1><a href="home.html">Cook</a></h1>
+        <h4>Best & Delicious food Restaurant</h4>
+        <div class="nav">
+	    <ul>
+			<li><a href="home.html">Home</a></li>
+             <li><a href="AboutUs.html">About</a></li>
+             <li><a href="compare.html">Compaire</a></li>
+             <li><a href="complaints.html">Complaints</a></li>
+             <li><a href="About%20Chef.html">About Chef</a></li>
+             <li ><a href="search.html">Search</a></li>
+             <li><a href=support.html>Support</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+             <li><a href="index.html">About Food</a></li>
+             <li><a href="login.html">Login</a></li>
+             <li><a href="Contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+    </header>
+    <div>
+        <h2>login page</h2>
+    
+        <form action="home.html" name="myform" onsubmit="return validateForm()">
+            
+            <input type="text" placeholder="username" name="user">
+            
+            <input type="password" placeholder="password" name="pass">
+            
+            <input type="checkbox" > <label>Remember me</label>
+            
+            <input type="submit" value="login">
+        </form>
+    </div>
+    <script>
+    function validateForm(){
+        var x = document.forms["myform"]["user"].value;
+        var y =document.forms["myform"]["pass"].value;
+        if (x == "") {
+            alert("userName must be filled out");
+            return false;
+        }
+        // pass must be at least 8 char
+        else if  (  y.length <8  ) {
+            alert("pass must be filled out with at least 8 char ");
+            return false;
+        }
+        else
+        {  alert("welcome to our page");
+        return true;}
+    }
+    </script>
+    <footer>
+	<p class="call">Call Us : 000 - 2564 - 453</p>
+        <p class="email">Email Us : support@cooks.com</p>
+    </footer>
+</body>
+</html>

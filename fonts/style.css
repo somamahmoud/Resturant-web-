@@ -1,0 +1,271 @@
+body, html {
+  height: 100%;
+  margin: 0;
+
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+header
+{
+    height: 600px;
+    width: 100%;
+    margin-top: -21px;
+    padding-top: 10px;
+}
+    
+h1 , h4 {
+text-align: center;
+}
+h1{
+   font-size: 100px;
+    color: #e8d702;
+    position: relative;
+    z-index: 3;
+        
+}
+h1 a{
+    color:#e8d702;
+    text-decoration: none;
+}
+h4{
+    margin-top: -25px;
+    font-size: xx-large;
+    color:#e8d702;
+    position: relative;
+    z-index: 3;
+
+}
+ul{
+    list-style: none;
+    margin-left: 9%;    
+    font-weight: bold;
+    padding: 20px 0;
+    max-width: max-content;
+    position: relative;
+    z-index: 3;
+}
+ul li{
+    /*text-align: center;*/
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    padding: 15px ;
+    border: hidden;
+    margin-right: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+ul li:hover{
+    text-decoration: underline;
+    background: #797916;
+    /*border: 1px solid yellow;*/
+}
+ul li a{
+    text-decoration:none ;
+        color: honeydew;
+}
+header .content{
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 4;
+}
+header .content h2{
+    font-size: 40px;
+}
+header .content p{
+    font-size: 35px;
+}
+
+
+
+.header
+{
+  
+  
+  height:600px;
+  position:fixed;
+  bottom:0;
+  top:-10px;
+  left:-10px;
+  padding-bottom:0;
+  margin-bottom:0;
+  text-align: center;
+  z-index: -1;
+}
+.header .overLay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1000px;
+    color: #fff;
+    z-index: 1;
+}
+
+body
+{
+    background-image:url('images/MyPage.jpg');
+    background-size: cover;
+    width:100%;    
+    height:auto;
+    position:absolute;
+    top:-50px;
+    padding-top:0;
+    padding-bottom:0;
+    margin-bottom:0;
+    z-index: 0;
+}
+.navigation
+{
+    top=0;
+    width:100%;
+    height: 100px;
+    
+    opacity: 50%;
+}
+.header
+{
+    padding:auto;
+    margin-top: 30px;
+    width:100%;
+    height: 400px;
+    position: absolute;
+}
+/*chinese content start*/
+.header .chinese
+{
+    width:30.3333%;
+    height:inherit;
+    position: relative;
+    float:left;
+    margin-right: 4%;
+}
+
+.header .chinese img
+{
+    width:200px;
+    margin-top:100px;
+    margin-left: 100px;
+    border-radius: 200px;
+    border:1px solid #ccc;
+    position: relative;
+    z-index: 4;
+}
+.header .chinese img:hover
+{
+           box-shadow: 10px 20px 5px #000;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 5px 5px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+      cursor:pointer;
+      animation: fadeIn ease 1s;
+-webkit-animation: fadeIn ease 1s;
+-moz-animation: fadeIn ease 1s;
+-o-animation: fadeIn ease 1s;
+-ms-animation: fadeIn ease 1s;
+}
+/*chinese content end*/
+
+
+/*animation start*/
+@keyframes fadeIn {
+0% {opacity:.5;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0.5;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0.5;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0.5;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0.5;}
+100% {opacity:1;}
+}
+/*animation end*/
+
+
+/*italian content start*/
+.header .italian
+{
+    width:30.3333%;
+    height:inherit;
+    position: relative;
+    float: left;
+}
+
+.header .italian img
+{
+    width:200px;
+    margin-top:100px;
+    margin-left: 100px;
+    border-radius: 200px;
+    border:1px solid #ccc;
+    position: relative;
+    z-index: 4;
+}
+.header .italian img:hover
+{
+           box-shadow: 10px 20px 5px #000;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 5px 5px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+      cursor:pointer;
+      animation: fadeIn ease 1s;
+-webkit-animation: fadeIn ease 1s;
+-moz-animation: fadeIn ease 1s;
+-o-animation: fadeIn ease 1s;
+-ms-animation: fadeIn ease 1s;
+}
+
+/*italian content end*/
+
+/*indian content start*/
+.header .indian
+{
+        width:30.3333%;
+    height:inherit;
+    position: relative;
+    float: right;
+}
+
+.header .indian img
+{
+    width:200px;
+    margin-top:100px;
+    margin-left: 100px;
+    border-radius: 200px;
+    border:1px solid #ccc;
+    position: relative;
+    z-index: 4;
+}
+.header .indian img:hover
+{
+           box-shadow: 10px 20px 5px #000;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 5px 5px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+      cursor:pointer;
+      animation: fadeIn ease 1s;
+-webkit-animation: fadeIn ease 1s;
+-moz-animation: fadeIn ease 1s;
+-o-animation: fadeIn ease 1s;
+-ms-animation: fadeIn ease 1s;
+}
+
+/*indian content end*/
+

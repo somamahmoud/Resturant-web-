@@ -1,0 +1,156 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+header
+{
+    height: 500px;
+    width: 100%;
+    
+    margin-top: -21px;
+    padding-top: 10px;
+}
+    
+h1 , h4 {
+text-align: center;
+}
+h1{
+   font-size: 100px;
+    color: #e8d702;
+        
+}
+h4{
+    margin-top: -25px;
+        font-size: xx-large;
+    color:#e8d702;
+
+}
+ul{
+    list-style: none;
+    margin-left: 13%;    
+    font-weight: bold;
+    padding: 20px 0;
+    max-width: max-content;
+}
+ul li{
+    /*text-align: center;*/
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    padding: 15px ;
+    border: hidden;
+    margin-right: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+ul li:hover{
+    text-decoration: underline;
+    background: #797916;
+    /*border: 1px solid yellow;*/
+}
+ul li a{
+    text-decoration:none ;
+        color: honeydew;
+}
+
+
+
+
+.header
+{
+  width:106%;
+  background-image:url('images/tomato.jpg');
+  background-size:cover;
+  height:600px;
+  position:fixed;
+  bottom:0;
+  top:-10px;
+  left:-10px;
+  padding-bottom:0;
+  margin-bottom:0;
+  text-align: center;
+  z-index: -1;
+}
+.header h1
+{
+  color:white;
+  text-align:center;
+  border-top:1px solid;
+  border-bottom:1px solid;
+  display:inline-block;
+  margin-top: 300px;
+  font-family: tahoma;
+    position: relative;
+    top: 100px;
+}
+.header .overLay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    z-index: 1;
+}
+.body
+{
+  position:relative;
+  width:106%;
+  left:-9px;
+  top:900px;
+  z-index: 10;
+  background-color: white;
+}
+.body img
+{
+  width:30%;
+}
+.body h2
+{
+  text-align: center;
+  color: #aa5;
+  font-size: 30px;
+}
+.img-title img
+{
+   margin-left: 500px;
+   text-align:center;
+  
+}
+.img-title h3
+{
+  padding-left:10%;
+  margin-left: 500px;
+  
+}
+.body p
+{
+
+  font-size: 30px;
+  width:800px;
+  margin-left: 300px;
+  text-indent: 60px;
+}
+/* Start footer */
+.footer{
+  
+   padding: 20px 20px 20px 20px; font-size: smaller;
+   background: url("images/footerr.jpg");
+   background-size: cover;
+    color:#e8d702;
+    position: relative;
+    
+        }
+        
+.footer .call , .email{
+    letter-spacing:1px;display: inline;
+    
+}
+.footer .email{
+    float: right;
+    margin-top: 0px;
+    
+}
+
+/* End footer */

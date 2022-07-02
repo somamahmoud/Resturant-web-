@@ -1,0 +1,138 @@
+body, html {
+  height: 100%;
+    background-image: url("images/photo1.jpg");
+  
+}
+header
+{
+    height: 500px;
+    width: 100%;
+    margin-top: -21px;
+    padding-top: 10px;
+}
+    
+h1 , h4 {
+text-align: center;
+}
+h1{
+   font-size: 100px;
+    color: #e8d702;
+        
+}
+h1 a{
+    color:#e8d702;
+    text-decoration: none;
+}
+h4{
+    margin-top: -25px;
+     font-size: xx-large;
+    color:#e8d702;
+
+}
+ul{
+    list-style: none;
+    margin-left: 13%;    
+    font-weight: bold;
+    padding: 20px 0;
+    max-width: max-content;
+    height: 0;
+}
+ul li{
+    /*text-align: center;*/
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    padding: 15px ;
+    border: hidden;
+    margin-right: 10px;
+    background-color: rgba(0,0,0,0.5);
+    height: 0;
+}
+ul li:hover{
+    text-decoration: underline;
+    background: #797916;
+    /*border: 1px solid yellow;*/
+}
+ul li a{
+    text-decoration:none ;
+        color: honeydew;
+}
+
+.div1 {
+    padding-top:0;
+    
+    height: 1000px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    margin-top: 0;
+    color:#FF9800;
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.form1{
+    margin: 20px 500px;
+    border: solid 1px antiquewhite;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background: black;
+    opacity: 0.9;   
+   }
+    
+.label1{
+    color: white;
+    font-size: 17px;
+   }
+   
+   input{outline: none;
+    border: hidden;
+    border-bottom: solid 1px chocolate;
+    width: 250px;
+    background: border-box;
+    height: 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    display: block;
+    color: white;
+    font-size:medium;
+    
+   }
+ 
+  input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+  }
+    
+ 
+input[type="submit"]{
+    text-align: center;
+    width: 100px;
+    margin-left: 200px;
+    background-color: #FF9800;
+   }
+   input[type="submit"]:hover{
+    background-color: #bf9515;
+    color: black;
+    font-weight: bold;
+   }
+footer{
+   padding: 20px 10px 20px 10px; font-size: smaller;
+   background: url("images/footerr.jpg");
+   color:#e8d702;
+    position: relative;
+    left: -7px;
+    width: 100%;
+        }
+        
+.call , .email{
+    letter-spacing:1px;display: inline;
+    
+}
+.email{
+    float:right;
+    margin-top: 0px;
+    
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Register page</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("h2").addClass("title");
+        });
+        $(document).ready(function(){
+            $(".box").mouseenter(function(){
+                $(".box").css({"box-shadow": "5px 6px 13px 6px chocolate"});});
+            $(".box").mouseleave(function(){
+                $(".box").css({"box-shadow": "none"});});
+            
+            /*$(".title").mouseenter(function(){
+                (this).anmite({"font":"large"},"slow");});*/
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <h2>Registration Info</h2>
+        </header>
+        <div class="box">
+            <div class="left">
+                <img src="images/photo2.jpg">
+            </div>
+            
+            <div class="content">
+                <form  action="home.html" onsubmit="return check1()">        
+                        <input type="text" placeholder="firstName" name="fname" required>
+                        <input type="text" placeholder="LastName" name="lname" required>
+                        <input type="text" placeholder="UserName" name="uname" required>
+                        <input type="email" placeholder="Email" name="email" required>
+                        <input type="password" placeholder="password"  id="pass" required>
+                        <input type="password" placeholder="confirm password" id="con_pass" required>
+                        <input type="submit" class="sub"  value="Register Now">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script >
+        function check1(){
+        var pass1= document.getElementById("pass").value;
+        var conpass2= document.getElementById("con_pass").value;
+        if (pass1 != conpass2) {
+            alert("your pass and confirm pass are not same");
+            return false;
+            }
+            alert("Welcome ,Sir");
+            return true;
+        }
+        </script>
+</body>
+</html>
